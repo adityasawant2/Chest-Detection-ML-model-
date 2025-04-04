@@ -40,4 +40,4 @@ if __name__ == "__main__":
     img = cv2.imread(img_path)
     img = cv2.resize(img, (224, 224))
     superimposed_img = overlay_heatmap(heatmap, img)
-    cv2.imwrite("gradcam_output.jpg", superimposed_img)
+    cv2.imwrite("gradcam_outputs.jpg", superimposed_img)
